@@ -43,8 +43,13 @@ h2{
   border: @accent @thin solid;
   border-radius: 5px;
   text-decoration: none;
-  padding: (2*@thin);
+  padding: @font-size-small;
   text-align: center;
+  &:hover{
+    text-shadow: 0 @thin @thin @background-color,
+                 0 (2*@thin) (2*@thin) @background-color;
+
+  }
 }
 .meta{
     float: right;
@@ -52,6 +57,10 @@ h2{
       text-decoration: none;
       display: block;
       .invert-color;
+    }
+    ul{
+      margin-top: (2*@thin);
+      margin-bottom: @font-size;
     }
     li{
       border: @accent @thin solid;
