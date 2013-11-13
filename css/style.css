@@ -1,3 +1,11 @@
+.default-color {
+  background-color: #bcbdac;
+  color: #3b2d38;
+}
+.invert-color {
+  color: #bcbdac;
+  background-color: #f02475;
+}
 body {
   background-color: #bcbdac;
   color: #3b2d38;
@@ -16,8 +24,14 @@ h1,
 h2,
 h3 {
   color: #f02475;
+  margin-bottom: 0px;
+}
+h2 {
+  margin-top: 1.2em;
 }
 .buy-now a {
+  color: #bcbdac;
+  background-color: #f02475;
   font-size: 1.7999999999999998em;
   border: #f02475 1px solid;
   border-radius: 5px;
@@ -28,7 +42,29 @@ h3 {
 .meta {
   float: right;
 }
+.meta a {
+  text-decoration: none;
+  color: #bcbdac;
+  background-color: #f02475;
+}
+.meta li {
+  border: #f02475 1px solid;
+  border-radius: 5px;
+  color: #bcbdac;
+  background-color: #f02475;
+  list-style: none;
+  margin-top: 1.2em;
+  display: inline-block;
+}
 .details {
   float: left;
   width: 512px;
+}
+img.android-robot {
+  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  left: 1024px;
 }
