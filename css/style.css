@@ -19,6 +19,7 @@ body {
 }
 a {
   color: #f02475;
+  text-decoration: none;
 }
 h1,
 h2,
@@ -55,6 +56,7 @@ h2 {
   list-style: none;
   margin-top: 1.2em;
   display: inline-block;
+  font-size: 0.7999999999999999em;
 }
 .details {
   float: left;
@@ -67,6 +69,7 @@ img.android-robot {
   position: fixed;
   top: 0;
   left: 1024px;
+  z-index: -1;
 }
 .app-details:before,
 .app-details:after {
