@@ -4,7 +4,6 @@ body {
   width: 1024px;
   margin-top: 2.4em;
   font-size: 1.2em;
-  line-height: 3.5em;
   display: table;
   margin: auto;
   font-family: "proxima-nova", helvetica, sans-serif;
@@ -12,4 +11,17 @@ body {
 }
 a {
   color: #f02475;
+}
+h1,
+h2,
+h3 {
+  color: #f02475;
+}
+.buy-now a {
+  font-size: 1.7999999999999998em;
+  border: #f02475 1px solid;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 2px;
+  text-align: center;
 }
