@@ -25,3 +25,10 @@ h3 {
   padding: 2px;
   text-align: center;
 }
+.meta {
+  float: right;
+}
+.details {
+  float: left;
+  width: 512px;
+}
