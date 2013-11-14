@@ -14,6 +14,10 @@
     color: @background-color;
     background-color: @accent;
 }
+.link-color{
+    color: @accent;
+    background-color: @background-color;
+}
 
 body {
   .default-color;
@@ -52,7 +56,9 @@ h2, .meta .buy-now{
   }
 }
 .meta{
+    width: (512px-20*@thin);
     float: right;
+    margin-left: (20*@thin);
     a{
       text-decoration: none;
       display: block;
@@ -69,7 +75,19 @@ h2, .meta .buy-now{
       .invert-color;
       list-style: none;
       display: inline-block;
-      font-size: @font-size-small
+      font-size: @font-size-small;
+    }
+}
+header .meta {
+  li{
+    font-size: @font-size;
+    .default-color;
+    border: none;
+  }
+  a{
+      display: inline;
+      .link-color;
+
     }
 }
 .details{
